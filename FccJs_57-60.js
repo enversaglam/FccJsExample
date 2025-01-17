@@ -3,18 +3,20 @@ const character = "#";
 const count = 8;
 const rows = [];
 
+/* function padRow() {
+  const test = "Testing";  
+  return test;
+}
+console.log(padRow()); */
+
 function padRow(name) {
-  return character + name;
+  const test = "Testing";
+  console.log("This works!")
+  return test;
+  console.log("This works!")
 }
 
-/* function addTwoNumbers(num1, num2) {
-  return num1 + num2;
-}
-
-const sum = addTwoNumbers(5, 10);
-console.log(sum) */
-
-const call = padRow();
+const call = padRow("CamperChan");
 console.log(call);
 
 
